@@ -9,5 +9,6 @@ input{
   padding: 12px 8px;
   margin-bottom: 10px;
   border-radius: 5px;
+  border: 1px solid #bbb;
   width: 30%;
 }
