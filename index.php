@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Sign Up</title>
-<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="main.css" />
 </head>
 <body>
 
@@ -12,7 +12,9 @@
  
 
 <div class="signup-form">
+
 <?php
+//error handling
 if(isset($_GET['signup'])){
 	$code=$_GET['signup'];
 	if($code=="empty"){
@@ -28,7 +30,7 @@ if(isset($_GET['signup'])){
 ?>
 
 
-<form method="post" action="includes/signup.inc.php">
+<form method="post" action="signup.inc.php">
    <input type="text" name="fname" placeholder="first name" /><br/>
   <input type="text" name="lname" placeholder="last name" /><br/>
   <input type="email" name="email" placeholder="email" /><br/>
@@ -40,6 +42,6 @@ if(isset($_GET['signup'])){
 
 </body>
 <footer>
-<p>Created by<b> Kingdomplus Inc.</b></p>
+	<p>Created by<b> <a href="twitter.com/kingdompluske">Kingdomplus Inc.</a></b></p>
 </footer>
 </html>
