@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Sign Up</title>
-<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="main.css" />
 </head>
 <body>
 
